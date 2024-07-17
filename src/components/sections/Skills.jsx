@@ -10,7 +10,7 @@ import react from '../../assets/skills/react.svg'
 function Skills(){
     return(
         <div className={styles.skills} id="skills">
-            <h1>Habilidades</h1>
+            <h1>Tecnologias</h1>
             <h3>Conheça um pouco das minhas principais habilidades e conhecimentos.</h3>
             <div>
                 <img src={html}/>

@@ -13,7 +13,7 @@ function Projects(){
     return(
         <div className={styles.projects}>
              <h1>Projetos</h1>
-             <div className={styles.divcards}>
+             <div className={styles.divcards} id='projects'>
                 <Card 
                 site='https://ibrahimproject1dnc.netlify.app/'
                 img={lndpg}

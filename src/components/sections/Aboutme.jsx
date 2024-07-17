@@ -5,7 +5,7 @@ import styles from './Aboutme.module.css'
 
 function Aboutme(){
     return(
-        <div className={styles.aboutme}>
+        <div className={styles.aboutme} id='aboutme'>
             <h1>Sobre Mim</h1>
             <div>  
                 <Mytimeline/>          
