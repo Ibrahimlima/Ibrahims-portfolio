@@ -1,0 +1,31 @@
+.footer div{
+    margin-left: 5rem;
+    margin-right: 10rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer li{
+    margin: 1.4rem;
+}
+
+.footer a{
+    color: var(--color-white) !important;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.links{
+    margin-left: 34.3rem;
+    margin-right: 3rem ;
+}

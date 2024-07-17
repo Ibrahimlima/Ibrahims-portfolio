@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li{
+    margin: 1.4rem;
+}
+
+.navbar a{
+    color: var(--color-white) !important;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.links{
+    margin-left: 34.3rem;
+    margin-right: 3rem ;
+}

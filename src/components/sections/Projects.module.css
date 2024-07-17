@@ -1,0 +1,22 @@
+.projects{
+    text-align: justify;
+    margin-left: 10%;  
+    margin-bottom: 3rem;
+
+}
+
+.projects h1{
+    font-size: 3.25rem;
+}
+
+
+.divcards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projbtn{
+    margin-left: 42rem;
+}

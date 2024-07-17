@@ -1,0 +1,20 @@
+.btn{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffffde;
+    background: rgb(24,41,205);
+    background: linear-gradient(0deg, rgba(24,41,205,0.7721463585434174) 0%, rgba(255,0,33,0.8897934173669468) 100%);
+    padding: 1rem 3rem;
+    border: 0rem;
+    border-radius: 0.938rem;
+    cursor: pointer;
+    transition-duration: 0.9s;
+}
+
+.btn:hover{
+    
+    background: rgb(24,41,205);
+    background: linear-gradient(43deg, rgba(24,41,205,0.7721463585434174) 0%, rgba(255,0,33,0.8897934173669468) 100%);
+    transform: translatey(-0.638rem);
+    transition-duration: 1s;
+}
