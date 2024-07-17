@@ -8,6 +8,7 @@ import tabu from '../../assets/Projects/tabuadadnc.svg'
 import weather from '../../assets/Projects/weatherdnc.svg'
 import portf from '../../assets/Projects/portfoliotestednc.svg'
 import portfB from '../../assets/Projects/portfolioBruno.svg'
+import portfI from '../../assets/Projects/ibahimportf.svg'
 
 function Projects(){
     return(
@@ -65,11 +66,19 @@ function Projects(){
                 <Card 
                 site='https://meu-portfolioibrahim.vercel.app/'
                 img={portfB}
-                title='Ibrahim`s Portfólio'
+                title='Portfólio'
                 tec='HTML / CSS / JS / REACT'
-                descr='Este projeto foi feito durante o curso da DNC. Sendo criado este meu portfólio.'
+                descr='Este projeto foi feito durante o curso da DNC. Sendo criado este portfólio.'
                 rep='https://github.com/Ibrahimlima/meu-portfolio'
-                />                
+                />
+                <Card 
+                site='https://ibrahim-portf.vercel.app'
+                img={portfI}
+                title='Ibrahim`s Portfólio'
+                tec='HTML / CSS / JS / REACT / VITE'
+                descr='Este projeto foi feito para o "Desafio nº 3" durante o curso da DNC. Este projeto foi feito durante o curso da DNC. Sendo criado meu portfólio oficial.'
+                rep='https://github.com/Ibrahimlima/Ibrahims-portfolio'
+                />                                
             </div>
             <div className={styles.projbtn}>
             <Button link={'https://github.com/Ibrahimlima'} text={'Conecte-se comigo!!'}/>
