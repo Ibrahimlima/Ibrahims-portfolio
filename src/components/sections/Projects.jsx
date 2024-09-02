@@ -9,7 +9,7 @@ import weather from '../../assets/Projects/weatherdnc.svg'
 import portf from '../../assets/Projects/portfoliotestednc.svg'
 import portfB from '../../assets/Projects/portfolioBruno.svg'
 import portfI from '../../assets/Projects/ibahimportf.svg'
-import todoList from '../../assets/Projects/todoList.svg'
+import todoList from '../../assets/Projects/todolist.svg'
 
 function Projects(){
     return(
