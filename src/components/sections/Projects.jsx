@@ -9,6 +9,7 @@ import weather from '../../assets/Projects/weatherdnc.svg'
 import portf from '../../assets/Projects/portfoliotestednc.svg'
 import portfB from '../../assets/Projects/portfolioBruno.svg'
 import portfI from '../../assets/Projects/ibahimportf.svg'
+import todoList from '../../assets/Projects/todoList.svg'
 
 function Projects(){
     return(
@@ -55,6 +56,14 @@ function Projects(){
                 descr='Este projeto foi feito durante o curso da DNC. Criação de um site apresentando o evento da CCXP de 2022(cronometro referente a outra data).'
                 rep='https://github.com/Ibrahimlima/CCXP2022DNC'
                 />
+                <Card 
+                site='https://to-do-list-ibrahims.vercel.app'
+                img={todoList}
+                title='Lista de Tarefas'
+                tec='HTML / CSS / JS'
+                descr='Este projeto foi criado durante o curso de Desenvolvedor Full-Stack da DNC. Neste site, você pode criar uma lista de tarefas para seu dia, sendo capaz de ver todas elas, as concluídas e não concluídas, bem como uma progressão de quantas você já concluiu naquele dia. podendo inclusive altera-la livremente.'
+                rep='https://github.com/Ibrahimlima/To-do-list'
+                />            
                 <Card 
                 site='https://ibrahimweatherdnc.netlify.app'
                 img={weather}
